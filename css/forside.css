@@ -7,12 +7,10 @@ h1 {
     color: #E63A2D;
     font-size: 140px;
     text-transform: uppercase;
-    font-family: 'Montserrat',
-        sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     width: 100%;
     margin: 0;
-
 }
 
 img {
