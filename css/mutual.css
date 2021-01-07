@@ -5,7 +5,9 @@ img {
 body {
     margin-left: 50px;
     margin-right: 50px;
+    background-color: #FFFAF1;
 }
+
 
 h2 {
     text-align: center;
@@ -13,4 +15,14 @@ h2 {
     font-size: 50px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
+}
+
+.links a:hover {
+    color: #FB33DB;
+}
+
+.links a {
+    font-size: 15px;
+    padding: 1vw;
+    text-decoration: none;
 }

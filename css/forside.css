@@ -20,6 +20,7 @@ img {
     margin-right: auto;
     margin-top: -50px;
     border: 10px solid #244A5A;
+    margin-bottom: 10px;
 
 }
 
@@ -56,11 +57,17 @@ h2 {
     text-align: center;
 }
 
-.text_container {
+.text_container a {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     color: #E63A2D;
-    font-size: 20px;
+    font-size: 23px;
     margin-right: auto;
     margin-left: 63vw;
+    text-decoration: none;
+}
+
+
+.text_container a:hover {
+    color: black;
 }
