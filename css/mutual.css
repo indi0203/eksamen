@@ -18,11 +18,49 @@ h2 {
 }
 
 .links a:hover {
-    color: #FB33DB;
+    color: #E63A2D;
+}
+
+.links {
+    padding-top: 15px;
+    text-align: end;
+    padding-right: 20px;
 }
 
 .links a {
     font-size: 15px;
     padding: 1vw;
+    color: black;
     text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 10px;
+    z-index: 1;
+    text-align: left;
+}
+
+.dropdown_link {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
