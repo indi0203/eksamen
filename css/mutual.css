@@ -64,3 +64,24 @@ p {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo a {
+    color: #E63A2D;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.logo a:hover {
+    color: black;
+}
+
+.logo {
+    padding-top: 15px;
+}
