@@ -5,7 +5,9 @@ img {
 #menuknap {
     text-align: end;
     font-size: 25px;
-    padding-top: 15px;
+    padding-top: 6px;
+    cursor: pointer;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header {
@@ -13,6 +15,7 @@ header {
     grid-template-columns: 1fr 1fr;
 
 }
+
 
 .logo a {
     color: #E63A2D;
@@ -83,7 +86,6 @@ h2 {
     .links {
         padding-top: 15px;
         text-align: end;
-        padding-right: 20px;
     }
 
     .links a {
@@ -123,21 +125,54 @@ h2 {
 }
 
 @media (max-width: 660px) {
-    #menu {
-        height: 100%;
-        position: absolute;
-        margin-top: 0;
-        padding-left: 100px;
-        z-index: 1;
-        background-color: wheat;
-        text-align: center;
 
+    .dropdown-content a {
+        text-decoration: none;
     }
 
+    .links {
+        height: 120%;
+        position: absolute;
+        margin-top: 0;
+        z-index: 1;
+        background-color: floralwhite;
+        left: 0;
+        overflow-x: hidden;
+        transition: 0.5s;
+        top: 60px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .links a {
+        padding: 10px;
+        font-family: 'Quicksand', sans-serif;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .links a:hover {
+        color: #E63A2D;
+    }
 
     .hidden {
         opacity: 0;
         transform: translateX(-100%);
+    }
+
+    .links {
+        font-size: 30px;
+    }
+
+    .dropdown-content {
+        font-size: 17px;
+    }
+
+    .logo a {
+
+        font-size: 16px;
+
     }
 
 
