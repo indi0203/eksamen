@@ -1,8 +1,18 @@
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 50px;
-    grid-gap: 30px;
+@media (min-width: 1014px) {
+
+    .container {
+        display: flex;
+        grid-gap: 30px;
+        padding-bottom: 30px;
+    }
+
+    .col {
+        flex: 1;
+    }
+
+    .tekst {
+        order: 2;
+    }
 }
 
 .col a {
@@ -18,7 +28,7 @@
 }
 
 .link {
-    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 img {
