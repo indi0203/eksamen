@@ -1,0 +1,15 @@
+@media (min-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 45% 55%;
+        padding-bottom: 50px;
+        grid-gap: 30px;
+    }
+
+    img {
+        max-width: 600px;
+        height: auto;
+        align-content: center;
+
+    }
+}

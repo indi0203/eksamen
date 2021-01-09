@@ -31,6 +31,7 @@ header {
 
 .logo {
     padding-top: 15px;
+
 }
 
 p {
@@ -74,6 +75,7 @@ h2 {
 }
 
 @media (min-width: 665px) {
+
 
     #menuknap {
         display: none;
@@ -174,6 +176,7 @@ h2 {
         font-size: 16px;
 
     }
+
 
 
 }
