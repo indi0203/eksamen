@@ -1,11 +1,6 @@
-body {
-    background-color: #FFFAF1;
-    margin: 0 auto;
-}
-
 h1 {
     color: #E63A2D;
-    font-size: 140px;
+    font-size: 60px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -14,13 +9,13 @@ h1 {
 }
 
 img {
-    max-width: 650px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 1.3%;
+    max-width: 600px;
+    border: 15px solid #244A5A;
+    margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -50px;
-    border: 10px solid #244A5A;
-    margin-bottom: 10px;
+    margin-top: -20px;
 
 }
 
@@ -36,27 +31,6 @@ h2 {
     position: relative;
 }
 
-.center1 {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: center;
-}
-
-.center2 {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-}
-
-.center3 {
-    position: absolute;
-    top: 65%;
-    width: 100%;
-    text-align: center;
-}
-
 .text_container a {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -70,4 +44,57 @@ h2 {
 
 .text_container a:hover {
     color: black;
+}
+
+@media (min-width: 520px) {
+    h1 {
+
+        font-size: 70px;
+
+    }
+
+    img {
+        margin-top: -25px;
+    }
+}
+
+
+@media (min-width: 680px) {
+    h1 {
+
+        font-size: 95px;
+
+    }
+
+    img {
+        margin-top: -35px;
+    }
+}
+
+
+
+@media (min-width: 750px) {
+    h1 {
+
+        font-size: 110px;
+
+    }
+
+    img {
+        margin-top: -35px;
+    }
+}
+
+
+
+@media (min-width: 930px) {
+    h1 {
+
+        font-size: 140px;
+
+    }
+
+    img {
+        margin-top: -55px;
+    }
 }
