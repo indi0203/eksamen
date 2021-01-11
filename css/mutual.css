@@ -87,7 +87,7 @@ h2 {
 
     .links {
         padding-top: 15px;
-        text-align: end;
+        float: right;
     }
 
     .links a {
